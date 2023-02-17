@@ -36,10 +36,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Generate Content for your Website!</h1>
+            <h1>Generate Content for your Linkedin profile</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Tell us what your website is about and We will generate a Hero text and an Article on it.</h2>
+            <h2>Tell us what topic you want to explore and we will generate a linkedin post for you</h2>
           </div>
         </div>
         <div className="prompt-container">

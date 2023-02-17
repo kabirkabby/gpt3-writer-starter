@@ -5,8 +5,7 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
-const basePromptPrefix = `Generate a hero text of 20-25 words and an article of 150 words on the "Topic" for a website.
-
+const basePromptPrefix = `Write a linkedin post along with a heading in upto 150 words on the "Topic". Keep the language informal, catchy and interactive for the audience. 
 Topic:`;
 const generateAction = async (req, res) => {
   // Run first prompt
